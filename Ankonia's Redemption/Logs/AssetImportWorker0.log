@@ -1,0 +1,938 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.25f1 (b6f2b893ea32) revision 11989688'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22518.1000; Version 2009; 64bit' Language: 'en' Physical Memory: 16167 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+U:\unity\Hub\Editor\2021.1.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Yousef/OneDrive/Documents/GitHub/Gaming-project/Ankonia's Redemption
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54432
+Successfully changed project path to: C:/Users/Yousef/OneDrive/Documents/GitHub/Gaming-project/Ankonia's Redemption
+C:/Users/Yousef/OneDrive/Documents/GitHub/Gaming-project/Ankonia's Redemption
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 246.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.25f1 (b6f2b893ea32)
+[Subsystems] Discovering subsystems at path U:/unity/Hub/Editor/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Yousef/OneDrive/Documents/GitHub/Gaming-project/Ankonia's Redemption/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD FirePro W5170M (ID=0x6820)
+    Vendor:   ATI
+    VRAM:     2027 MB
+    Driver:   27.20.20904.1004
+Initialize mono
+Mono path[0] = 'U:/unity/Hub/Editor/2021.1.25f1/Editor/Data/Managed'
+Mono path[1] = 'U:/unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'U:/unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: U:/unity/Hub/Editor/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001007 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 173.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1649ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007336 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 225.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2469ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2068ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (786ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (225ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4184.
+Total: 5.722700 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.274300 ms MarkObjects: 4.945800 ms  DeleteObjects: 0.181900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TileSets/Palette/Level1_S1.prefab
+  artifactKey: Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/Level1_S1.prefab using Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da92c5ad89d4fc07c80575927194731') in 0.322474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_8.asset
+  artifactKey: Guid(d8afbf4a8cf0eb244badb9f64a2d8b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_8.asset using Guid(d8afbf4a8cf0eb244badb9f64a2d8b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4c912c24a9008270c1a173c24894e3') in 0.061724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_3.asset
+  artifactKey: Guid(b6916e7b35754844791930626f25e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_3.asset using Guid(b6916e7b35754844791930626f25e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc4752d491378da09aec821889aebb') in 0.036830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_11.asset
+  artifactKey: Guid(8efe82a8c47fb354e9257ef5b03ef128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_11.asset using Guid(8efe82a8c47fb354e9257ef5b03ef128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53408c9472d6bc4fa1126aba1316de48') in 0.030648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_9.asset
+  artifactKey: Guid(d075b4c9ce2ace64da8f45afb751f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_9.asset using Guid(d075b4c9ce2ace64da8f45afb751f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac145935452be70d1a8b398ef119264') in 0.035125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_14.asset
+  artifactKey: Guid(b5fff243be657054e8939f50c7d26b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_14.asset using Guid(b5fff243be657054e8939f50c7d26b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307f4501f6f13270ea991c6071a1ff63') in 0.037545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_6.asset
+  artifactKey: Guid(5212614fe2d7f5345a9f24b0c3e6b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_6.asset using Guid(5212614fe2d7f5345a9f24b0c3e6b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19eb697a91a7854efe531d60b909eb6') in 0.038821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_7.asset
+  artifactKey: Guid(81a3738549e0d9c4d9a82bde46eb9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_7.asset using Guid(81a3738549e0d9c4d9a82bde46eb9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d6ebdeaaf286df1581977c6a5d2bf5') in 0.038813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_17.asset
+  artifactKey: Guid(c4fde65913bb8804293c1a064a2161d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_17.asset using Guid(c4fde65913bb8804293c1a064a2161d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8a9dda2844457344ad2a80e8874a40') in 0.028410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_4.asset
+  artifactKey: Guid(59a65adce2f9fa5478b7e71d13e9cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_4.asset using Guid(59a65adce2f9fa5478b7e71d13e9cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9452dac8731f8a98d04fca16b33d2d36') in 0.036042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_15.asset
+  artifactKey: Guid(ecfde0f624cbd064b97e9049a05834d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_15.asset using Guid(ecfde0f624cbd064b97e9049a05834d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d8efa8487305a77c45b5c9671e0a09') in 0.033046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_13.asset
+  artifactKey: Guid(ff599665a3e43914884671fdea7c2488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_13.asset using Guid(ff599665a3e43914884671fdea7c2488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051e359889718eb247611fdec6e66198') in 0.032530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_16.asset
+  artifactKey: Guid(79be7a15635038046a76b8976a6a2690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_16.asset using Guid(79be7a15635038046a76b8976a6a2690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55708e173ab6b843cfe6afdf26f10456') in 0.057219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_1.asset
+  artifactKey: Guid(c87833152cfea0a498f395dae9aa88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_1.asset using Guid(c87833152cfea0a498f395dae9aa88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbcc288d817e7df6451ebfef524ba22') in 0.044398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_18.asset
+  artifactKey: Guid(c07a8ea2db0c0e44c8dcd7038e3b283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_18.asset using Guid(c07a8ea2db0c0e44c8dcd7038e3b283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86300437adebc3b8e3a478b24c61eb5b') in 0.045918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_19.asset
+  artifactKey: Guid(322053e7b63f66540b288e0b46cf41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_19.asset using Guid(322053e7b63f66540b288e0b46cf41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5b65c5ba62b66524b763ca31a19daf') in 0.032495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/TileSets/Palette
+  artifactKey: Guid(008b3e191d6405344a7bddb532ff0b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette using Guid(008b3e191d6405344a7bddb532ff0b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fbfdca446411d73033d37ae583fb76') in 0.020696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_2.asset
+  artifactKey: Guid(6e6d24f65fe2f4b45a9297737bd05c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_2.asset using Guid(6e6d24f65fe2f4b45a9297737bd05c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f439ee899a07d50a20b9b141d9e0df3') in 0.032759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_5.asset
+  artifactKey: Guid(11affa6f63439b744880a12223e9b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_5.asset using Guid(11affa6f63439b744880a12223e9b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0318bc0644c1ae10e5834fed2ca79123') in 0.034471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_10.asset
+  artifactKey: Guid(480f0c54a701e3c448d9f6d4b4c67248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_10.asset using Guid(480f0c54a701e3c448d9f6d4b4c67248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65be3b6e670848d58fcfeb900bcf4d79') in 0.040804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_0.asset
+  artifactKey: Guid(c9e58ded4ff9b8d4a821ca4a92daddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_0.asset using Guid(c9e58ded4ff9b8d4a821ca4a92daddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 3.480200 seconds  code(4) message(Build asset version error: assets/tilesets/palette/another-world-tileset_0.asset in SourceAssetDB has modification time of '2021-12-17T23:18:02.4235305Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff6ed0993cc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff6ed09f749 (Unity) StackWalker::ShowCallstack
+0x00007ff6ed89a7b3 (Unity) GetStacktrace
+0x00007ff6ed9ce0d9 (Unity) GetAssetHashAndValidate
+0x00007ff6ed9c977a (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6ed9c7a37 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6ed9a2959 (Unity) CreateAssetVersionBuilder
+0x00007ff6ed9a8c62 (Unity) ImportToObjects
+0x00007ff6ed9a7a38 (Unity) ImportAsset
+0x00007ff6ed945f6f (Unity) AssetImportWorker::Import
+0x00007ff6ed969022 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff6ed9efcf2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6ed9f1f60 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6ed9f564e (Unity) asio::io_service::run
+0x00007ff6ed9916fa (Unity) RunAssetImportWorkerClientV2
+0x00007ff6ed991750 (Unity) RunAssetImporterV2
+0x00007ff6ed491917 (Unity) Application::InitializeProject
+0x00007ff6ed8a3e57 (Unity) WinMain
+0x00007ff6ef411c62 (Unity) __scrt_common_main_seh
+0x00007ffebdfe1350 (KERNEL32) BaseThreadInitThunk
+0x00007ffebf912e78 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/tilesets/palette/another-world-tileset_0.asset in SourceAssetDB has modification time of '2021-12-17T23:18:02.4235305Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff6ed0993cc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff6ed09f749 (Unity) StackWalker::ShowCallstack
+0x00007ff6ed89a7b3 (Unity) GetStacktrace
+0x00007ff6ed9ce0d9 (Unity) GetAssetHashAndValidate
+0x00007ff6ed9c977a (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6ed9c7a37 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6ed9a2959 (Unity) CreateAssetVersionBuilder
+0x00007ff6ed9a8c62 (Unity) ImportToObjects
+0x00007ff6ed9a7a38 (Unity) ImportAsset
+0x00007ff6ed945f6f (Unity) AssetImportWorker::Import
+0x00007ff6ed969022 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff6ed9efcf2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6ed9f1f60 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6ed9f564e (Unity) asio::io_service::run
+0x00007ff6ed9916fa (Unity) RunAssetImportWorkerClientV2
+0x00007ff6ed991750 (Unity) RunAssetImporterV2
+0x00007ff6ed491917 (Unity) Application::InitializeProject
+0x00007ff6ed8a3e57 (Unity) WinMain
+0x00007ff6ef411c62 (Unity) __scrt_common_main_seh
+0x00007ffebdfe1350 (KERNEL32) BaseThreadInitThunk
+0x00007ffebf912e78 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.512824 seconds.
+  path: Assets/TileSets/Palette/Level1_S1.prefab
+  artifactKey: Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/Level1_S1.prefab using Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25f7e13f676444de1da561bd5fea34b') in 0.062166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.211995 seconds.
+  path: Assets/TileSets/palette 1
+  artifactKey: Guid(c0af14451f82ff945991008e3d0ed271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1 using Guid(c0af14451f82ff945991008e3d0ed271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43771aeefd73482eea1baba1f410e74b') in 0.027107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039138 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset.png
+  artifactKey: Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset.png using Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef372b46aa8168d0ff7c2dc722d3c498') in 0.154709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset5.png
+  artifactKey: Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset5.png using Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413689754abe1c92b41fc5a6cebb04a') in 0.055153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset10.png
+  artifactKey: Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset10.png using Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6daf2631cb7a952e287f5cc878f2aa0') in 0.049539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset4.png
+  artifactKey: Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset4.png using Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f54e1239b31074ac15baeff955a869') in 0.044119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset2.png
+  artifactKey: Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset2.png using Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff290aedae2210a826278e625eefef4') in 0.054531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset7.png
+  artifactKey: Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset7.png using Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5054aba88ed346d0442c6234941003') in 0.045137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset8.png
+  artifactKey: Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset8.png using Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda2f53d163cd3d73dc16d3ee445d89') in 0.043478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset9.png
+  artifactKey: Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset9.png using Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d72735885e9e9e65dea132e394e4d1') in 0.044301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset3.png
+  artifactKey: Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset3.png using Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c89fa36e17d0343ec07766be7401a') in 0.045957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset6.png
+  artifactKey: Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset6.png using Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ffdb64761383924868489229cc8f3d') in 0.047057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset1.png
+  artifactKey: Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset1.png using Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6817596a71d360af2d55f06907a2d964') in 0.047920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.240161 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset.png
+  artifactKey: Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset.png using Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e728852402275262423324ab0acd02') in 0.035977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.700370 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset.png
+  artifactKey: Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset.png using Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6816da9a771e82ec7f18160059cbd5') in 0.042987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.558485 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset1.png
+  artifactKey: Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset1.png using Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae9b4c03dcd898045e929b79d369ec0') in 0.036301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset10.png
+  artifactKey: Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset10.png using Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90a3e2a178a34ca6bbbca69b20edf1a') in 0.034164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset4.png
+  artifactKey: Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset4.png using Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03df6ff3ae1133867fa4a9ba9241a76') in 0.042162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset2.png
+  artifactKey: Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset2.png using Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190091c8640656880b53fc65fa065cc8') in 0.042032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset7.png
+  artifactKey: Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset7.png using Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e5fb1ff72da6b436da1b443752de8f') in 0.037894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset8.png
+  artifactKey: Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset8.png using Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a4a1fbbeb971615b68ebafcf20e23b') in 0.034737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset9.png
+  artifactKey: Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset9.png using Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da413ebad17ccc5193c3577ef8be4158') in 0.038577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset3.png
+  artifactKey: Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset3.png using Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b3d60449c247442617f61d062cf203') in 0.035615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset6.png
+  artifactKey: Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset6.png using Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abad5470943fa7b3971b16b22397a771') in 0.033214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset5.png
+  artifactKey: Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset5.png using Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c1b43c4acffa9c7a5eb9a695665ad4') in 0.037912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.793803 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset1.png
+  artifactKey: Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset1.png using Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c38f0521b2ccdb242c8736f8d507bcd') in 0.044060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.491964 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset2.png
+  artifactKey: Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset2.png using Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaf5c53af65ca80046b7da15c7be19d') in 0.046344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.552151 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset3.png
+  artifactKey: Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset3.png using Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1433eb48dad41cf56bae3c6c5119edac') in 0.036930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.855056 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset4.png
+  artifactKey: Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset4.png using Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9986a169ee341acb42e57679bc9fc') in 0.038857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.275989 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset5.png
+  artifactKey: Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset5.png using Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38accc619e5a763c8036fdad9b8374a7') in 0.039581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.046495 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset6.png
+  artifactKey: Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset6.png using Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61537447b7a9020c74a8ab65caca980') in 0.038164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.287363 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset7.png
+  artifactKey: Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset7.png using Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49910d125c3838c1533ad24d7b2401aa') in 0.038389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.181721 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset8.png
+  artifactKey: Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset8.png using Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1d464076eaad7bf867964308ed7167') in 0.041393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.694008 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset9.png
+  artifactKey: Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset9.png using Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363bafcaff1a24d47a00196efb61699d') in 0.034653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.361864 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset10.png
+  artifactKey: Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset10.png using Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2a3433543674939eb1685aaa563275') in 0.036907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.938402 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset.png
+  artifactKey: Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset.png using Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c5bde83c9065c708b90cef5941f8ab') in 0.037294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.983320 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset1.png
+  artifactKey: Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset1.png using Guid(b6d4656d4d543da4193e4ee045bd5867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f998469cddee224aaeff3b1972081cf9') in 0.061878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.089443 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset2.png
+  artifactKey: Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset2.png using Guid(aba050588b85db9498032713e78f944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320980f72571c2ebd64ea62184064cfd') in 0.035537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.219618 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset3.png
+  artifactKey: Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset3.png using Guid(27ae2db4eb89b9244b3db14037e8b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78abdbafb81f7a8b4cbbb6fde46ccda2') in 0.036133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.521343 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset4.png
+  artifactKey: Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset4.png using Guid(caae2a61069df4a4f9efc9d5421e3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbbbee2758808da82cd9f7c91e06e96') in 0.051081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.480323 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset5.png
+  artifactKey: Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset5.png using Guid(a6b827bd3c1127c4db5c59af2cc5b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4977f939e89042142ce91b7d3cbe8f83') in 0.039620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829909 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset6.png
+  artifactKey: Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset6.png using Guid(7febf330f327b7647be55ca25e6ed66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0ea66546cb609128f58c20574d077b') in 0.034999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.284017 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset7.png
+  artifactKey: Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset7.png using Guid(cf8d55269dafb194db695e19b2429805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e94b8a399d7f1b1163620f831ff0769') in 0.037074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.534956 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset8.png
+  artifactKey: Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset8.png using Guid(f5d3ed04d74d812469a53471a64b532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0311ddbb7447418da2495a0718f2d6b') in 0.037991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.915214 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset9.png
+  artifactKey: Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset9.png using Guid(8023d439cb812174e92cdf364e47c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94c9962437a6bae7b5f49363d3f0c13') in 0.032835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.252337 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset10.png
+  artifactKey: Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset10.png using Guid(ab4b2f4c6effaa04884be4e5107ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c727a3ca6a1770da296976a59b027d69') in 0.042687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.349021 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset1_0.asset
+  artifactKey: Guid(e6a6968c60aa06b46a494f9f8e26a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset1_0.asset using Guid(e6a6968c60aa06b46a494f9f8e26a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abc19cc5fbf8f521d7fa6e918fed108') in 0.039811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/TileSets/Palette/Level1_S1.prefab
+  artifactKey: Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/Level1_S1.prefab using Guid(136411bd3c1e9bb40a7ad8ff1daeb80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544431c08c588a74051197d9383c622') in 0.072460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset2_1.asset
+  artifactKey: Guid(b079e6f731953ec4081228f2a8da63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset2_1.asset using Guid(b079e6f731953ec4081228f2a8da63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb636c1e932a5b8fffa4f88d42ddf84') in 0.040159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset6_0.asset
+  artifactKey: Guid(9c4a77de663d95449abe9db370c47621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset6_0.asset using Guid(9c4a77de663d95449abe9db370c47621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190e1c90e28d356624a463f7a4017c73') in 0.040000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset8_1.asset
+  artifactKey: Guid(4732eaa4c46349a40aa2d2b028ff2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset8_1.asset using Guid(4732eaa4c46349a40aa2d2b028ff2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463447feb79f2b992a0cac81a15402bc') in 0.038682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset10_0.asset
+  artifactKey: Guid(9ad76b6d6fd1424419eac8edd386262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset10_0.asset using Guid(9ad76b6d6fd1424419eac8edd386262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6648b66cfa310fea46787c4009adec') in 0.037524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset3_0.asset
+  artifactKey: Guid(0783d1eedd8d3c7478b1423248162900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset3_0.asset using Guid(0783d1eedd8d3c7478b1423248162900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d70e453acf1fe0eeb09f012971764d') in 0.039448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset7_0.asset
+  artifactKey: Guid(6ca5d53afa696f740828f8bf457e537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset7_0.asset using Guid(6ca5d53afa696f740828f8bf457e537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63414d1a783399a089b878056ff79bd1') in 0.037084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset9_0.asset
+  artifactKey: Guid(809976a99f3c0e647b638ebc673d5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset9_0.asset using Guid(809976a99f3c0e647b638ebc673d5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22065019fdebe87e4a53605c9d22e4b') in 0.040111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset1_1.asset
+  artifactKey: Guid(72325db4a2a86f142bbd26a7a0838cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset1_1.asset using Guid(72325db4a2a86f142bbd26a7a0838cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac24d2f02596f0f0df208859f3a0521') in 0.039406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset2_0.asset
+  artifactKey: Guid(b319b5ea52c5052468fbdf5320efad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset2_0.asset using Guid(b319b5ea52c5052468fbdf5320efad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ededc81c7e6f5c80e73e8bc3472b75') in 0.033383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset5_0.asset
+  artifactKey: Guid(4f06d7eb14467054aab64c7ab1195f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset5_0.asset using Guid(4f06d7eb14467054aab64c7ab1195f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a87b37b3b31f26b3be227b8526d31b') in 0.033713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_1.asset
+  artifactKey: Guid(c87833152cfea0a498f395dae9aa88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_1.asset using Guid(c87833152cfea0a498f395dae9aa88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bb079562bb23107957956802b6233a') in 0.030741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset4_0.asset
+  artifactKey: Guid(967efdf6f18892a4c996d31820da1380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset4_0.asset using Guid(967efdf6f18892a4c996d31820da1380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15adb16c828466ddc4f89a4238d3f160') in 0.036114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset8_0.asset
+  artifactKey: Guid(ada71815452fe5149bc7d9b26ce1550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset8_0.asset using Guid(ada71815452fe5149bc7d9b26ce1550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198064119e896c67c4a4cf8cb716616c') in 0.037185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset5_1.asset
+  artifactKey: Guid(7daf527920ea3c8478fe19e1612bcbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset5_1.asset using Guid(7daf527920ea3c8478fe19e1612bcbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b5f2560d206802204504de7437c778') in 0.035618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/TileSets/Palette/another-world-tileset_0.asset
+  artifactKey: Guid(c9e58ded4ff9b8d4a821ca4a92daddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/Palette/another-world-tileset_0.asset using Guid(c9e58ded4ff9b8d4a821ca4a92daddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2309abb416b6566ca4796ecce300ca') in 0.034778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.580941 seconds.
+  path: Assets/TileSets/palette 1/another-world-tileset.png
+  artifactKey: Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSets/palette 1/another-world-tileset.png using Guid(7e9285c74fff6364e9126400bbd70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8577c8f82ebf0a96afae24d9ab13289c') in 0.038010 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.109 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2110ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1794ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (696ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.7 MB.
+System memory in use after: 161.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4866.
+Total: 7.205200 ms (FindLiveObjects: 0.698500 ms CreateObjectMapping: 0.639900 ms MarkObjects: 5.812200 ms  DeleteObjects: 0.052800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (673ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 162.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4869.
+Total: 5.910900 ms (FindLiveObjects: 0.609000 ms CreateObjectMapping: 0.279400 ms MarkObjects: 4.982300 ms  DeleteObjects: 0.038700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2423ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2084ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (727ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (891ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.9 MB.
+System memory in use after: 162.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4872.
+Total: 6.800600 ms (FindLiveObjects: 0.671700 ms CreateObjectMapping: 0.478700 ms MarkObjects: 5.609700 ms  DeleteObjects: 0.038800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 960.613761 seconds.
+  path: Assets/Scenes/IntroScene.unity
+  artifactKey: Guid(36627dd08cfe39e4c9b44b8a548eda5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IntroScene.unity using Guid(36627dd08cfe39e4c9b44b8a548eda5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b3829387cab42466821e96e4a1ce67') in 0.039641 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yousef\OneDrive\Documents\GitHub\Gaming-project\Ankonia's Redemption\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1850ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1573ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.9 MB.
+System memory in use after: 162.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4875.
+Total: 6.974800 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 0.353600 ms MarkObjects: 6.091600 ms  DeleteObjects: 0.074900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.023110 seconds.
+  path: Assets/Scenes/Level1Scene1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1Scene1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb5b398e5f20abbf2bcbf4c2d9c76c7') in 0.047145 seconds 
