@@ -465,7 +465,8 @@ GameObject:
   m_Component:
   - component: {fileID: 107325397}
   - component: {fileID: 107325396}
-  m_Layer: 0
+  - component: {fileID: 107325398}
+  m_Layer: 3
   m_Name: alien-tileset_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,6 +539,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &107325398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107325395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.011213362}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.57}
+    newSize: {x: 0.96, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.96, y: 0.5475732}
+  m_EdgeRadius: 0
 --- !u!1 &167612403
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +658,8 @@ GameObject:
   m_Component:
   - component: {fileID: 227816958}
   - component: {fileID: 227816957}
-  m_Layer: 0
+  - component: {fileID: 227816959}
+  m_Layer: 3
   m_Name: alien-tileset_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,6 +732,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &227816959
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227816956}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.07655883}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.79}
+    newSize: {x: 0.96, y: 0.79}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.96, y: 0.6368823}
+  m_EdgeRadius: 0
 --- !u!1 &230086763
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,7 +851,8 @@ GameObject:
   m_Component:
   - component: {fileID: 250635481}
   - component: {fileID: 250635480}
-  m_Layer: 0
+  - component: {fileID: 250635482}
+  m_Layer: 3
   m_Name: alien-tileset_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,6 +925,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &250635482
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250635479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0130749345}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.57}
+    newSize: {x: 0.96, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.96, y: 0.54385006}
+  m_EdgeRadius: 0
 --- !u!1 &271337172
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +961,8 @@ GameObject:
   m_Component:
   - component: {fileID: 271337174}
   - component: {fileID: 271337173}
-  m_Layer: 0
+  - component: {fileID: 271337175}
+  m_Layer: 3
   m_Name: alien-tileset_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,6 +1035,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &271337175
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271337172}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06587404}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.548252}
+  m_EdgeRadius: 0
 --- !u!1 &294939880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1154,8 @@ GameObject:
   m_Component:
   - component: {fileID: 304275639}
   - component: {fileID: 304275638}
-  m_Layer: 0
+  - component: {fileID: 304275640}
+  m_Layer: 3
   m_Name: alien-tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1119,6 +1228,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &304275640
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304275637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0037329197}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.7025342}
+  m_EdgeRadius: 0
 --- !u!1 &314693254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,7 +1264,8 @@ GameObject:
   m_Component:
   - component: {fileID: 314693256}
   - component: {fileID: 314693255}
-  m_Layer: 0
+  - component: {fileID: 314693257}
+  m_Layer: 3
   m_Name: alien-tileset_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,6 +1338,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &314693257
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314693254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!1 &334896514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,7 +1402,7 @@ Transform:
   - {fileID: 863276203}
   - {fileID: 526777197}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &362809426
 GameObject:
@@ -1335,7 +1497,8 @@ GameObject:
   m_Component:
   - component: {fileID: 503403996}
   - component: {fileID: 503403995}
-  m_Layer: 0
+  - component: {fileID: 503403997}
+  m_Layer: 3
   m_Name: alien-tileset_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1408,6 +1571,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &503403997
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503403994}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06535524}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.5492896}
+  m_EdgeRadius: 0
 --- !u!1 &520301281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,7 +1939,8 @@ GameObject:
   m_Component:
   - component: {fileID: 641862289}
   - component: {fileID: 641862288}
-  m_Layer: 0
+  - component: {fileID: 641862290}
+  m_Layer: 3
   m_Name: alien-tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1823,6 +2013,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &641862290
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641862287}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!1 &672411025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +2132,8 @@ GameObject:
   m_Component:
   - component: {fileID: 787005187}
   - component: {fileID: 787005186}
-  m_Layer: 0
+  - component: {fileID: 787005188}
+  m_Layer: 3
   m_Name: alien-tileset_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1989,6 +2206,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &787005188
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787005185}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.067064226}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.5458716}
+  m_EdgeRadius: 0
 --- !u!1 &808967625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,7 +2740,8 @@ GameObject:
   m_Component:
   - component: {fileID: 891796146}
   - component: {fileID: 891796145}
-  m_Layer: 0
+  - component: {fileID: 891796147}
+  m_Layer: 3
   m_Name: alien-tileset_3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2570,6 +2814,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &891796147
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891796144}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06535524}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.5492896}
+  m_EdgeRadius: 0
 --- !u!1 &932163663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,7 +3016,8 @@ GameObject:
   m_Component:
   - component: {fileID: 955158448}
   - component: {fileID: 955158447}
-  m_Layer: 0
+  - component: {fileID: 955158449}
+  m_Layer: 3
   m_Name: alien-tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2819,6 +3090,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &955158449
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955158446}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!1 &974669791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,7 +3126,8 @@ GameObject:
   m_Component:
   - component: {fileID: 974669793}
   - component: {fileID: 974669792}
-  m_Layer: 0
+  - component: {fileID: 974669794}
+  m_Layer: 3
   m_Name: alien-tileset_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2902,6 +3200,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &974669794
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974669791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!1 &999519411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,7 +3302,7 @@ Transform:
   - {fileID: 250635481}
   - {fileID: 2082134403}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043954099
 GameObject:
@@ -3240,6 +3564,7 @@ GameObject:
   - component: {fileID: 1112079373}
   - component: {fileID: 1112079372}
   - component: {fileID: 1112079371}
+  - component: {fileID: 1112079374}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3312,6 +3637,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112079374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112079370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d86cc0b80270cb4fb75f90b282bd1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  CameraSpeed: 0
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &1120734145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3322,7 +3665,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1120734147}
   - component: {fileID: 1120734146}
-  m_Layer: 0
+  - component: {fileID: 1120734148}
+  m_Layer: 3
   m_Name: alien-tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3395,6 +3739,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1120734148
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120734145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0037329197}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.7025342}
+  m_EdgeRadius: 0
 --- !u!1 &1216681136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,7 +3775,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1216681138}
   - component: {fileID: 1216681137}
-  m_Layer: 0
+  - component: {fileID: 1216681139}
+  m_Layer: 3
   m_Name: alien-tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3478,6 +3849,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1216681139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216681136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.011213362}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.57}
+    newSize: {x: 0.96, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.96, y: 0.5475732}
+  m_EdgeRadius: 0
 --- !u!1 &1286059943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,7 +3968,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1291237995}
   - component: {fileID: 1291237994}
-  m_Layer: 0
+  - component: {fileID: 1291237996}
+  m_Layer: 3
   m_Name: alien-tileset_3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3644,6 +4042,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1291237996
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291237993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06721681}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.54556644}
+  m_EdgeRadius: 0
 --- !u!1 &1296891875
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,7 +4244,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1370380916}
   - component: {fileID: 1370380915}
-  m_Layer: 0
+  - component: {fileID: 1370380917}
+  m_Layer: 3
   m_Name: alien-tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3893,6 +4318,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1370380917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370380914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0056250095}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.69875}
+  m_EdgeRadius: 0
 --- !u!1 &1378480034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,7 +4437,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1400511129}
   - component: {fileID: 1400511128}
-  m_Layer: 0
+  - component: {fileID: 1400511130}
+  m_Layer: 3
   m_Name: alien-tileset_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4059,6 +4511,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1400511130
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400511127}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06532472}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.5493506}
+  m_EdgeRadius: 0
 --- !u!1 &1435541711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4733,7 +5211,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1978715636}
   - component: {fileID: 1978715635}
-  m_Layer: 0
+  - component: {fileID: 1978715637}
+  m_Layer: 3
   m_Name: alien-tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4806,6 +5285,101 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1978715637
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978715634}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.71}
+    newSize: {x: 0.64, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.71}
+  m_EdgeRadius: 0
+--- !u!1001 &2034401739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.023234
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.263585
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2093797
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 166.588
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 713.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.1945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333262, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_Name
+      value: Valerie
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c07bca70839cf86468855074f44a9a10, type: 3}
 --- !u!1 &2082134401
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,7 +5390,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2082134403}
   - component: {fileID: 2082134402}
-  m_Layer: 0
+  - component: {fileID: 2082134404}
+  m_Layer: 3
   m_Name: alien-tileset_3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4889,6 +5464,32 @@ Transform:
   m_Father: {fileID: 999519412}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2082134404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082134401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06535524}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.68}
+    newSize: {x: 0.64, y: 0.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.5492896}
+  m_EdgeRadius: 0
 --- !u!1 &2091977696
 GameObject:
   m_ObjectHideFlags: 0
