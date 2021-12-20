@@ -224,3 +224,10 @@ Received Import Request.
   path: Assets/Animation/ValerieDeath.anim
   artifactKey: Guid(1e8bcd5cb07c3e24ba16e99005ae3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animation/ValerieDeath.anim using Guid(1e8bcd5cb07c3e24ba16e99005ae3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9468728fa15855327ce5b465ac97a0a') in 0.017636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 460.920309 seconds.
+  path: Assets/Animation/ValerieDeath.anim
+  artifactKey: Guid(1e8bcd5cb07c3e24ba16e99005ae3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ValerieDeath.anim using Guid(1e8bcd5cb07c3e24ba16e99005ae3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3986219e83e35ab9d7b8144b3706e4') in 0.008561 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
