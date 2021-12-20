@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plague : MonoBehaviour
+public class Plauge : MonoBehaviour
 {
     public Transform player;
 
