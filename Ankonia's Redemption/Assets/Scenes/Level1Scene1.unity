@@ -11361,7 +11361,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: Attack
-      value: 115
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: animator
