@@ -5,6 +5,7 @@ using UnityEngine;
 public class LaserDestroy : MonoBehaviour
 {
     public float timeTilDestroy;
+    public int damage = 2;
 
     // Update is called once per frame
     void Update()
@@ -14,6 +15,9 @@ public class LaserDestroy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
+        {
             FindObjectOfType<levelManager>().RespawnPlayer();
+            FindObjectOfType<PlayerStats>().TakeDamage(damage);
+        }
     }
 }
