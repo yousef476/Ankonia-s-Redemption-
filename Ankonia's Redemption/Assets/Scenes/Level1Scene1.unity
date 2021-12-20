@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6941605}
   - component: {fileID: 6941604}
   - component: {fileID: 6941606}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 185706242}
   - component: {fileID: 185706241}
   - component: {fileID: 185706243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 273220268}
   - component: {fileID: 273220267}
   - component: {fileID: 273220269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2019,7 +2019,7 @@ GameObject:
   - component: {fileID: 344726875}
   - component: {fileID: 344726877}
   - component: {fileID: 344726876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4224,7 +4224,7 @@ GameObject:
   - component: {fileID: 789377423}
   - component: {fileID: 789377422}
   - component: {fileID: 789377424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4739,6 +4739,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &974904972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974904973}
+  m_Layer: 0
+  m_Name: attackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974904973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974904972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.21, y: -0.072, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 116547846}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1000861217
 GameObject:
   m_ObjectHideFlags: 0
@@ -7134,7 +7164,7 @@ GameObject:
   - component: {fileID: 1460129763}
   - component: {fileID: 1460129762}
   - component: {fileID: 1460129764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8983,7 +9013,7 @@ GameObject:
   - component: {fileID: 1752813036}
   - component: {fileID: 1752813035}
   - component: {fileID: 1752813037}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9192,6 +9222,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!95 &1776505693 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2267765353068333252, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+  m_PrefabInstance: {fileID: 2267765352964417996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1784553395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9782,7 +9817,7 @@ GameObject:
   - component: {fileID: 1858761981}
   - component: {fileID: 1858761980}
   - component: {fileID: 1858761982}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: White-square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11324,6 +11359,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: Attack
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1776505693}
+    - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 974904973}
+    - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: attackRange
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333257, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2267765353068333258, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: m_RootOrder
       value: 3
