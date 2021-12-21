@@ -372,6 +372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Valerie
       objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333262, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c07bca70839cf86468855074f44a9a10, type: 3}
 --- !u!4 &162589558 stripped
@@ -2525,7 +2529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1207366590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
@@ -3501,7 +3505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1748737411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: attackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4337,7 +4341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 20
   attackOffset: {x: -1.9, y: -0.1, z: 0}
-  attackRange: 1.2
+  attackRange: 3
   attackMask:
     serializedVersion: 2
     m_Bits: 64
@@ -4349,7 +4353,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049603954}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

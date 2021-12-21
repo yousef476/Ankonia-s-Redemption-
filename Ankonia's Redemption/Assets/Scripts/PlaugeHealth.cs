@@ -25,6 +25,7 @@ public class PlaugeHealth : MonoBehaviour
 
 	void Die()
 	{
+        Debug.Log("Dead");
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
 		Destroy(gameObject);
 	}
