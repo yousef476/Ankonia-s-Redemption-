@@ -4341,7 +4341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 20
   attackOffset: {x: -1.9, y: -0.1, z: 0}
-  attackRange: 3
+  attackRange: 1.65
   attackMask:
     serializedVersion: 2
     m_Bits: 64
@@ -4365,7 +4365,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &2067486514
 GameObject:
   m_ObjectHideFlags: 0
