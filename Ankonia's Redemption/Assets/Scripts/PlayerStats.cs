@@ -14,13 +14,12 @@ public class PlayerStats : MonoBehaviour
     public int heartsCollected = 0;
     public int shieldsCollected = 0;
     private Animator anim;
-    private bool hurt = false;
 
     void Start()
     {
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        anim.SetBool("Hurt", false);
+      
 
     }
 
