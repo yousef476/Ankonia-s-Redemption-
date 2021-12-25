@@ -16,7 +16,6 @@ public class LaserDestroy : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            FindObjectOfType<levelManager>().RespawnPlayer();
             FindObjectOfType<PlayerStats>().TakeDamage(damage);
         }
     }

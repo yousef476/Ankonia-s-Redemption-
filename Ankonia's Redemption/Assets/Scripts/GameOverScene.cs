@@ -12,7 +12,7 @@ public class GameOverScene : MonoBehaviour
     }
 
     public void RestartButton(){
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Level1Scene1");
         Debug.Log("Game Restarted");
     }
     public void ExitButton(){

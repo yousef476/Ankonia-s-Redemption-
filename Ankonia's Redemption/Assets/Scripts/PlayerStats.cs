@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -57,13 +59,13 @@ public class PlayerStats : MonoBehaviour
             this.health = this.health - damage;
             if (this.health < 0)
                 this.health = 0;
-            if(this.lives >= 0 && this.health == 0)
+            if(this.lives > 0 && this.health == 0)
             {
                 FindObjectOfType<levelManager>().RespawnPlayer();
                 this.health = 6;
                 this.lives--;
             }
-            else if(this.lives == 0)
+            else if(this.lives <= 0)
             {
                 Die();
 
@@ -87,6 +89,7 @@ public class PlayerStats : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
         Destroy(this.gameObject,2f);
+        SceneManager.LoadScene("GameOverScene");
 
     }
 }
