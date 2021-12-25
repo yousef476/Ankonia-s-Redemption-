@@ -14,13 +14,13 @@ public class PlayerStats : MonoBehaviour
     public int heartsCollected = 0;
     public int shieldsCollected = 0;
     private Animator anim;
+    private bool hurt = false;
 
     void Start()
     {
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         anim.SetBool("Hurt", false);
-        anim.SetBool("isDead", false);
 
     }
 
@@ -28,37 +28,36 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         
-        
     }
-    
+    void FixedUpdate()
+    {
+      
+    }
+
     public void TakeDamage(int damage)
     {
-            this.health = this.health - damage;
+        anim.SetBool("Hurt", true);
+        this.health = this.health - damage;
             if (this.health < 0)
                 this.health = 0;
-            if(this.lives > 0 && this.health == 0)
+        if (this.lives > 0 && this.health == 0)
             {
-                //FindObjectOfType<levelManager>().RespawnPlayer();
-                this.health = 6;
+                //FindObjectOfType<LevelManager>().RespawnPlayer();
+                this.health = 10;
                 this.lives--;
-            }
+              }
             else if(this.lives <= 0)
             {
                 Die();
 
             }
-
+   
             Debug.Log("Player Health: " + this.health.ToString());
             Debug.Log("Player Lives: " + this.lives.ToString());
         
-        PlayerHitReaction();
     }
-
-   void PlayerHitReaction()
-    {
-        anim.SetBool("Hurt", true);
-
-    }
+ 
+  
     void Die()
     {
         Debug.Log("GAME OVER");
