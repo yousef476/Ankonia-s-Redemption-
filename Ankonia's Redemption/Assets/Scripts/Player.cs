@@ -39,6 +39,7 @@ public class Player: MonoBehaviour {
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        anim.SetBool("Slide", false);
     }
 
     // Update is called once per frame
@@ -74,11 +75,11 @@ public class Player: MonoBehaviour {
             }
             
         }
-        /*if (Input.GetKey(slide))
+        if (Input.GetKey(slide))
         {
-            anim.SetBool("Slide", grounded);
+            anim.SetBool("Slide", true);
         }
-        */
+        
     }
    
 

@@ -304,6 +304,10 @@ PrefabInstance:
       propertyPath: attackRange
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333256, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_Mass
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2267765353068333257, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -2720,6 +2724,27 @@ Transform:
   m_Father: {fileID: 189922686}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1286141680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2267765353068333262, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+  m_PrefabInstance: {fileID: 162589557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1286141687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286141680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4f8ae1dcac15c4f9d772693203874b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  lives: 3
+  heartsCollected: 0
+  shieldsCollected: 0
 --- !u!1 &1352024591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4287,6 +4312,7 @@ GameObject:
   - component: {fileID: 2049603960}
   - component: {fileID: 2049603961}
   - component: {fileID: 2049603955}
+  - component: {fileID: 2049603963}
   m_Layer: 7
   m_Name: Plague
   m_TagString: Enemy
@@ -4473,6 +4499,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &2049603963
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049603954}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.016364062, y: -0.14182164}
+  serializedVersion: 2
+  m_Radius: 0.08181431
 --- !u!1 &2067486514
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class Surge : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.SetBool("Move", true);
+        this.GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
 
     }
 
@@ -22,7 +23,8 @@ public class Surge : MonoBehaviour
     void FixedUpdate()
     {
         
-        this.GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
+       
+       
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,5 +34,6 @@ public class Surge : MonoBehaviour
             anim.SetBool("Move", false);
 
         }
+
     }
 }

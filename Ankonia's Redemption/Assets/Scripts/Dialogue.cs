@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
@@ -9,6 +10,7 @@ public class Dialogue : MonoBehaviour
     private int index = 0;
     public float typingSpeed;
     public GameObject continueButton;
+    public GameObject SkipButton;
     public GameObject dialogueBox;
     public Rigidbody2D player; 
 
@@ -17,6 +19,7 @@ public class Dialogue : MonoBehaviour
     {
         dialogueBox.SetActive(false);
         continueButton.SetActive(false);
+        SkipButton.SetActive(true);
     }
 
     // Update is called once per frame
@@ -32,19 +35,20 @@ public class Dialogue : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-
-            if(textDisplay.text == sentences[index])
-            {
-                continueButton.SetActive(true);
-            }
+            continueButton.SetActive(true);
         }
     }
     public void SetSentences(string[] sentences)
     {
         this.sentences = sentences;
     }
+    public void Skip()
+    {
+        SceneManager.LoadScene("Level1Scene1");
+    }
     public void NextSentence()
     {
+        
         continueButton.SetActive(false);
         if(index < sentences.Length- 1)
         {
@@ -59,6 +63,7 @@ public class Dialogue : MonoBehaviour
             dialogueBox.SetActive(false);
             this.sentences = null;
             index = 0;
+            SceneManager.LoadScene("Level1Scene1");
             player.constraints = RigidbodyConstraints2D.None;
             player.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
