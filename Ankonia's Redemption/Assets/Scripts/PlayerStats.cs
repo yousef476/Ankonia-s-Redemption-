@@ -53,10 +53,14 @@ public class PlayerStats : MonoBehaviour
    
             Debug.Log("Player Health: " + this.health.ToString());
             Debug.Log("Player Lives: " + this.lives.ToString());
-        
+
+
+
+
+
     }
- 
-  
+
+
     void Die()
     {
         Debug.Log("GAME OVER");

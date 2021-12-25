@@ -373,6 +373,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2267765353068333259, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: jumpHeight
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267765353068333259, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1207366590}
@@ -3981,6 +3985,8 @@ GameObject:
   - component: {fileID: 1926408345}
   - component: {fileID: 1926408344}
   - component: {fileID: 1926408343}
+  - component: {fileID: 1926408347}
+  - component: {fileID: 1926408346}
   m_Layer: 0
   m_Name: power-up-1
   m_TagString: Untagged
@@ -4073,6 +4079,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1926408346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926408342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b47eaf8aa80f6249898c7f138167b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1926408347
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926408342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0022870898, y: -0.019439531}
+  serializedVersion: 2
+  m_Radius: 0.052107416
 --- !u!1 &1934683167
 GameObject:
   m_ObjectHideFlags: 0
