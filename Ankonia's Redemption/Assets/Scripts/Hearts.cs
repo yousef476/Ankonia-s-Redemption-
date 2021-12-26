@@ -22,6 +22,9 @@ public class Hearts : MonoBehaviour
         if (other.tag == "Player")
         {
             anim.SetBool("Taken", true);
+            FindObjectOfType<PlayerStats>().heartsCollected += 1;
+            Destroy(this.gameObject);
+            Debug.Log("Player Hearts: " + FindObjectOfType<PlayerStats>().heartsCollected.ToString());
         }
             
     }
