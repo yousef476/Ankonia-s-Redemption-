@@ -15,6 +15,8 @@ public class Player: MonoBehaviour {
     public LayerMask whatIsGround;
     private bool grounded;
     private Animator anim;
+  //  [HideInInspector]
+  //  public int heartsCounter = 0;
     //public AudioClip jump1;
     //public AudioClip jump2;
     // Start is called before the first frame update

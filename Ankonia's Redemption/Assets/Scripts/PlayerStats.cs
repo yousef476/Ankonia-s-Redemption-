@@ -71,4 +71,14 @@ public class PlayerStats : MonoBehaviour
         SceneManager.LoadScene("GameOverScene");
 
     }
+  /*  void CollectHearts()
+    {
+        this.heartsCollected += 1;
+        if (health <= 0 || health < 10)
+            health = 10;
+        Debug.Log("Player Hearts: " + this.heartsCollected.ToString());
+        Debug.Log("Player Health: " + this.health.ToString());
+
+
+    } */
 }
