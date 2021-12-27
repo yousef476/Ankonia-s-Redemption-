@@ -12,7 +12,8 @@ public class Dialogue : MonoBehaviour
     public GameObject continueButton;
     public GameObject SkipButton;
     public GameObject dialogueBox;
-    public Rigidbody2D player; 
+    public Rigidbody2D player;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class Dialogue : MonoBehaviour
         player.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         foreach(char letter in sentences[index].ToCharArray())
         {
+           
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
             continueButton.SetActive(true);

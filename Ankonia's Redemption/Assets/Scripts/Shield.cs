@@ -19,9 +19,9 @@ public class Shield : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            FindObjectOfType<PlayerStats>().shieldsCollected += 1;
             Destroy(this.gameObject);
-            Debug.Log("Player Shields: " + FindObjectOfType<PlayerStats>().shieldsCollected.ToString());
+            FindObjectOfType<PlayerStats>().CollectShields();
+           
 
 
 

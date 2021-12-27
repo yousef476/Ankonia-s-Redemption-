@@ -11,9 +11,10 @@ public class PlayerStats : MonoBehaviour
     public int health;
     public int lives;
     private SpriteRenderer spriteRenderer;
-    public int heartsCollected = 0;
-    public int shieldsCollected = 0;
+    private int heartsCollected = 0;
+    private int shieldsCollected = 0;
     private Animator anim;
+    public AudioClip hurt;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        AudioSource.PlayClipAtPoint(hurt, transform.position);
         anim.SetBool("Hurt", true);
         this.health = this.health - damage;
             if (this.health < 0)
@@ -80,5 +82,14 @@ public class PlayerStats : MonoBehaviour
         Debug.Log("Player Health: " + this.health.ToString());
 
 
-    } 
+    }
+    public void CollectShields()
+    {
+        if (shieldsCollected != 10)
+        {
+            this.shieldsCollected += 1;
+        }
+
+
+    }
 }
