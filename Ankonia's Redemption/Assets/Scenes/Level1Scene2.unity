@@ -794,7 +794,6 @@ GameObject:
   - component: {fileID: 168678401}
   - component: {fileID: 168678400}
   - component: {fileID: 168678399}
-  - component: {fileID: 168678402}
   m_Layer: 0
   m_Name: Guard
   m_TagString: Untagged
@@ -841,7 +840,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!4 &168678401
 Transform:
   m_ObjectHideFlags: 0
@@ -858,23 +857,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &168678402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168678398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c305497a966e44e96769eff7c2350d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 855811086}
-  distance: 20
-  enemySpeed: 1.5
-  isFacingRight: 0
-  damage: 0
 --- !u!1 &227816956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3264,11 +3246,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.19}
   m_EdgeRadius: 0
---- !u!1 &855811086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2267765353068333262, guid: c07bca70839cf86468855074f44a9a10, type: 3}
-  m_PrefabInstance: {fileID: 2034401739}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &874094469
 GameObject:
   m_ObjectHideFlags: 0
