@@ -17,7 +17,7 @@ public class AudioManager : MonoBehaviour
         if (instance == null)
             instance = this;
         else if (instance != this)
-            Destroy(gameObject);
+          Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
     }
     public void PlaySingle(AudioClip clip)
@@ -40,6 +40,7 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
         
     }
 }
