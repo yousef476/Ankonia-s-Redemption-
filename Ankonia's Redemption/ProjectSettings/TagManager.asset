@@ -7,6 +7,7 @@ TagManager:
   - Surge
   - Valerie
   - Enemy
+  - Ladder
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: Collectables
     uniqueID: 487246357
+    locked: 0
+  - name: Props
+    uniqueID: 599699765
     locked: 0
   - name: Player
     uniqueID: 4217803051
