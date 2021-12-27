@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
+    public AudioClip shield;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class Shield : MonoBehaviour
         if (collision.tag == "Player")
         {
             Destroy(this.gameObject);
+            AudioSource.PlayClipAtPoint(shield, transform.position);
             FindObjectOfType<PlayerStats>().CollectShields();
            
 
