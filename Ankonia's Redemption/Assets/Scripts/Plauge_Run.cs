@@ -9,21 +9,21 @@ public class Plauge_Run : StateMachineBehaviour
 
 	Transform player;
 	Rigidbody2D rb;
-	Plauge Plauge;
+	//Plauge Plauge;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
 		player = GameObject.FindGameObjectWithTag("Player").transform;
 		rb = animator.GetComponent<Rigidbody2D>();
-		Plauge = animator.GetComponent<Plauge>();
+	//	Plauge = animator.GetComponent<Plauge>();
 
 	}
 
 	// OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
 	override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
-		Plauge.LookAtPlayer();
+	//	Plauge.LookAtPlayer();
 
 		Vector2 target = new Vector2(player.position.x, rb.position.y);
 		Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
