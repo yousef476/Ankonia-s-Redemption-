@@ -51,6 +51,9 @@ TagManager:
   - name: Collectables
     uniqueID: 487246357
     locked: 0
+  - name: Props
+    uniqueID: 599699765
+    locked: 0
   - name: Player
     uniqueID: 4217803051
     locked: 0
