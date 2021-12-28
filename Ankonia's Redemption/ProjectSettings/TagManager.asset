@@ -8,6 +8,7 @@ TagManager:
   - Valerie
   - Enemy
   - Ladder
+  - Flip
   layers:
   - Default
   - TransparentFX
