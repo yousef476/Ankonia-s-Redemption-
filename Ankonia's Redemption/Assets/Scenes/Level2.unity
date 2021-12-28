@@ -304,6 +304,14 @@ PrefabInstance:
       propertyPath: attackRange
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 407838866813863410, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: enemyLayers.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596323798697494254, guid: c07bca70839cf86468855074f44a9a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2267765353068333256, guid: c07bca70839cf86468855074f44a9a10, type: 3}
       propertyPath: m_Mass
       value: 50
